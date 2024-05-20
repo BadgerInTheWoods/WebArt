@@ -11,7 +11,7 @@ namespace WebArt.Data
         }
 
         public DbSet<Painting> Paintings { get; set; }
-        public DbSet<User> Users { get;}
+        public DbSet<User> Users { get; set; }
     }
 }
 

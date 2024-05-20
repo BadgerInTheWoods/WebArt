@@ -7,11 +7,11 @@ namespace YourNamespace.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public ProductsController(AppDbContext context)
+        public UserController(AppDbContext context)
         {
             _context = context;
         }
@@ -54,7 +54,7 @@ namespace YourNamespace.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProductExists(id))
+                if (!UserExists(id))
                 {
                     return NotFound();
                 }
@@ -79,7 +79,7 @@ namespace YourNamespace.Controllers
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
             var User = await _context.Users.FindAsync(id);
             if (User == null)
@@ -93,7 +93,7 @@ namespace YourNamespace.Controllers
             return NoContent();
         }
 
-        private bool ProductExists(int id)
+        private bool UserExists(int id)
         {
             return _context.Users.Any(e => e.Id == id);
         }
