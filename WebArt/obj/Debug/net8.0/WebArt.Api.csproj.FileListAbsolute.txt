@@ -140,3 +140,5 @@ C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\obj\Debug\net8.0\refint
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\obj\Debug\net8.0\WebArt.Api.pdb
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\obj\Debug\net8.0\WebArt.Api.genruntimeconfig.cache
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\obj\Debug\net8.0\ref\WebArt.Api.dll
+C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6MaYSZyHEcCbLnXW0HfFbjsTmSqzIiWg3ebokQ7M/C6MHa00p3nBpWa9JP+xSeVHtW/dWqz0u7mAJKfQqmWijg==",
+  "dgSpecHash": "bjRJYOXp7OuzaBSk7Vbqaa3iP987kBqQn5YQ4/YaGR2eKfoIdSy99cesLyJL65pj/6rX5hXN5Jb93pfoUQeWrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alex.DESKTOP-QVO9G74\\source\\repos\\WebArt\\WebArt.Model\\WebArt.Model.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,8 @@
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Alex.DESKTOP-QVO9G74\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
