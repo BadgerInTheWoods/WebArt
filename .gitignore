@@ -1,1 +1,103 @@
+# Папки и файлы, создаваемые сборщиком
+bin/
+obj/
+
+# Конфигурационные файлы пользователя
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Папки с логами
+*.log
+
+# Папки с временными файлами
+.vscode/
+.idea/
+*.vs/
+
+# Файлы конфигурации среды
+.env
+*.env
+
+# Конфигурационные файлы для Secret Manager
+secrets.json
+
+# Папки и файлы для контейнеров
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Файлы, создаваемые локальной БД
+*.mdf
+*.ldf
+*.ndf
+
+# Файлы, создаваемые JetBrains Rider
+.idea/
+
+# Конфигурационные файлы для Entity Framework
+.migrations/
+
+# Секция для различных IDE и редакторов
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
 .vs/
+*.csproj.user
+*.sln.docstates
+
+# Конфигурационные файлы NuGet
+.nuget/
+
+# Файлы для IIS
+*.vspscc
+*.vssscc
+iisexpress/
+
+# Папки и файлы Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Файлы, создаваемые операционной системой
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Образы контейнеров и связанные файлы
+*.tar
+*.img
+*.iso
+
+# Папки и файлы для локального анализа
+.resharper/
+*.DotSettings.user
+
+# Папки и файлы для CI/CD
+.terraform/
+.packer/
+.circleci/
+.github/
+.gitlab/
+
+# Папки и файлы для инфраструктурного кода
+.kitchen/
+.ssh/
+.pem
+.ppk
+
+# Файлы для редакторов
+*.sublime-project
+*.sublime-workspace
+
+# Папки и файлы для Mac
+.AppleDouble
+.LSOverride

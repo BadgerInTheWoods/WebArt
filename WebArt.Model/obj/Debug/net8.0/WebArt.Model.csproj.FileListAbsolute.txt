@@ -11,3 +11,5 @@ C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\obj\Debug\net8.0\
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\obj\Debug\net8.0\refint\WebArt.Model.dll
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\obj\Debug\net8.0\WebArt.Model.pdb
 C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\obj\Debug\net8.0\ref\WebArt.Model.dll
+C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\bin\Debug\net8.0\WebArt.Model.runtimeconfig.json
+C:\Users\Alex.DESKTOP-QVO9G74\source\repos\WebArt\WebArt.Model\obj\Debug\net8.0\WebArt.Model.genruntimeconfig.cache

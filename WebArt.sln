@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{8A703742-9865-4ACF-B101-458491DC8E3F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		todo.md = todo.md
 	EndProjectSection
 EndProject
 Global

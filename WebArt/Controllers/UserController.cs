@@ -9,9 +9,9 @@ namespace YourNamespace.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly WebArtDbContext _context;
 
-        public UserController(AppDbContext context)
+        public UserController(WebArtDbContext context)
         {
             _context = context;
         }

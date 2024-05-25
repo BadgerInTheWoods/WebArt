@@ -6,8 +6,8 @@ namespace WebArt.Api.Services
 {
     public class PaintingService : IPaintingService
     {
-        private readonly AppDbContext _context;
-        public PaintingService(AppDbContext context)
+        private readonly WebArtDbContext _context;
+        public PaintingService(WebArtDbContext context)
         {
             _context = context;
         }

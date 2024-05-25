@@ -8,8 +8,8 @@ namespace WebArt.Api.Services
 {
     public class UserService : IUserService
     {
-        private readonly AppDbContext _context;
-        public UserService(AppDbContext context)
+        private readonly WebArtDbContext _context;
+        public UserService(WebArtDbContext context)
         {
             _context = context;
         }
