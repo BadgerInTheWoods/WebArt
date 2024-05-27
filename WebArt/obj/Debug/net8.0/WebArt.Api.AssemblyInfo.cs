@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebArt.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715dc96f14c591cba34bae4eef55d62e10456912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e1c89667615e93a6addc3f1a77b449377467177")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebArt.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebArt.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
