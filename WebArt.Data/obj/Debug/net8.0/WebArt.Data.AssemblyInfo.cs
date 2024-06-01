@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebArt.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+715dc96f14c591cba34bae4eef55d62e10456912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+826d0ccd42ab835f5833a185157775e5c70462a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebArt.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebArt.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

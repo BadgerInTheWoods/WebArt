@@ -1,3 +1,3 @@
 ##todo
 
-1. добавить .csproj
+1. удалить converters

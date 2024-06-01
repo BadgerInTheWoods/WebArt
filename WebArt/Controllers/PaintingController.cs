@@ -72,6 +72,7 @@ namespace YourNamespace.Controllers
         public async Task<ActionResult<Painting>> PostPainting(Painting painting)
         {
             _context.Paintings.Add(painting);
+
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetPainting), new { id = painting.Id }, painting);
