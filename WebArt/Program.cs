@@ -11,10 +11,17 @@ public class Startup
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Настройка DbContext для использования PostgreSQL
         builder.Services.AddDbContext<WebArtDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-        builder.Services.AddControllers();
+        // Добавление контроллеров и настройка JSON-сериализации для DateOnly
+        builder.Services.AddControllers()
+            .AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.Converters.Add(new DateOnlyJsonConverter());
+            });
+        // Добавление Swagger для документирования API
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen(c =>
         {
@@ -36,6 +43,7 @@ public class Startup
         c.RoutePrefix = string.Empty;
         });
 
+        app.UseHttpsRedirection();
         app.UseAuthorization();
 
         app.MapControllers();
